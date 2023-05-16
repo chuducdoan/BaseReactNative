@@ -1,5 +1,5 @@
-import React, { useCallback, useMemo, useRef } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, {useCallback, useMemo, useRef} from 'react';
+import {View, Text, StyleSheet} from 'react-native';
 import BottomSheet from '@gorhom/bottom-sheet';
 
 const App = () => {
@@ -21,8 +21,7 @@ const App = () => {
         ref={bottomSheetRef}
         index={1}
         snapPoints={snapPoints}
-        onChange={handleSheetChanges}
-      >
+        onChange={handleSheetChanges}>
         <View style={styles.contentContainer}>
           <Text>Awesome 🎉</Text>
         </View>
